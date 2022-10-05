@@ -1,0 +1,203 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/* Title Image */
+.dogpic {
+  transform: rotate(25deg);
+  width: 25%;
+  position: absolute;
+  right: 20%;
+}
+
+
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+
+  padding: 5%;
+}
+
+/* FEATURES SECTION UL
+
+.features {
+  margin: 100px auto;
+
+}
+
+.feature-list {
+  list-style: none;
+
+}
+.feature-list li {
+  display:inline;
+}
+
+.feature-items {
+
+
+}
+
+.feature-p {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+.icons{
+  color:#ff4c68;
+}
+.icons:hover {
+  color: red;
+} */
+/*            TESTIMONIALS SECTION            */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*            PRICING  SECTION          */
+#pricing {
+  padding: 7%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*              CALL TO ACTION SECTION             */
+#cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.calltoactionh3 {
+  font-size: 3rem;
+}
+
+/*                  FOOTER SECTION                  */
+#footer {
+  background-color: #fff;
+  padding: 3% 7% 0 3%;
+  font-size: 1.2rem;
+}
+
+.footericons {
+  margin: 10px 20px;
+}
+
+/*           MEDIA QUERY BREAKPOINTS             */
+
+@media screen and (max-width: 900px) {
+  .dogpic {
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
